@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">HumberDroid Ashwini n01074309</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_content_main">My Humber Droid</string>
+    <string name="text1">Mobile Project</string>
+    <string name="text2">Ashwini Chandra</string>
+    <string name="text3">n01074309</string>
+    <string name="french">French</string>
+    <string name="english">English</string>
+    <string name="mycourselist">My Course List</string>
+    <string name="grades">Grades</string>
+    <string name="map">Map</string>
+    <string name="title_activity_mycourselist">My Course List @ Humber </string>
+    <string name="title_activity_database">My Grades @ Humber </string>
+    <string name="title_activity_maps">Map</string>
+    <string name="contactme">Contact me @ Humber</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="course1">Java Programming</string>
+    <string name="course2">Advanced Java</string>
+    <string name="course3">SQL Fundamentals</string>
+    <string name="course4">Linus OS</string>
+    <string name="course5">Mainframes</string>
+    <string name="coursefr1">programmation Java</string>
+    <string name="coursefr2">Java Advanced</string>
+    <string name="coursefr3">SQL Fundamentals</string>
+    <string name="coursefr4">Linus OS</string>
+    <string name="coursefr5">Mainframes</string>
+    <string name="about_text">Mobile Project is an Android Application that illustrates the use of
+        intents, different GUI controls and animation. Enhancement include use of an SQLLite
+        database and Google maps. It forms the core of limitless additions. Mobile Project uses
+        simple event handling and interaction between activities</string>
+    <string name="about_app_name">About Mobile Project</string>
+    <string name="contact_text">Humber North Campus
+                            205 Humber College Blvd.
+                            Toronto, Ontario, Canada, M9W 5L7.
+                            tel.: (416)5555555
+                            email: contactus@humber.com
+                            URL: http://www.humber.ca </string>
+    <string name="contact_app_name">Please get in touch with us:</string>
+    <string name="mycourselist_app_name">My Course list @ HUmber</string>
+
+</resources>

@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:id="@+id/listViewFrench"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
+
+
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="center"-->
+    <!--android:orientation="vertical">-->
+
+
+
+    <!--<TableLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<TableRow-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/coursefr1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:text="@string/coursefr1"-->
+                <!--android:textSize="25sp" />-->
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/course2"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:text="@string/coursefr2"-->
+                <!--android:textSize="25sp"-->
+                <!--android:layout_column="0" />-->
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/course3"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:text="@string/coursefr3"-->
+                <!--android:textSize="25sp"-->
+                <!--android:layout_column="0" />-->
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/course4"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:text="@string/coursefr4"-->
+                <!--android:textSize="25sp"-->
+                <!--android:layout_column="0" />-->
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/course5"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:text="@string/coursefr5"-->
+                <!--android:textSize="25sp"-->
+                <!--android:layout_column="0" />-->
+        <!--</TableRow>-->
+
+    <!--</TableLayout>-->
+
+
+
+
+<!--</LinearLayout>-->

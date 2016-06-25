@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Firstname"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Lastname"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Marks"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_firstname"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_lastname"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/editText_firstname"
+        android:layout_alignStart="@+id/editText_firstname"
+        android:layout_alignRight="@+id/editText_firstname"
+        android:layout_alignEnd="@+id/editText_firstname" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_marks"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/editText_lastname"
+        android:layout_alignStart="@+id/editText_lastname"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/button_add"
+        android:layout_alignTop="@+id/button_view"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:id="@+id/button_view"
+        android:layout_marginBottom="133dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/button_add"
+        android:layout_toEndOf="@+id/button_add" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:id="@+id/button_delete"
+        android:layout_alignTop="@+id/button_view"
+        android:layout_toRightOf="@+id/button_view"
+        android:layout_toEndOf="@+id/button_view" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ID"
+        android:id="@+id/textView4"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_id"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignLeft="@+id/editText_marks"
+        android:layout_alignStart="@+id/editText_marks" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/button_update"
+        android:layout_alignTop="@+id/button_delete"
+        android:layout_toRightOf="@+id/button_delete"
+        android:layout_toEndOf="@+id/button_delete" />
+
+</RelativeLayout>
+
